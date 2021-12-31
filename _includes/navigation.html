@@ -1,0 +1,8 @@
+<nav>
+    <a href="/" {% if page.url == "/" %}style="font-size: larger;border-bottom: 1px dotted gray;"{% endif %}>me</a><br/>
+    <a href="/about.html" {% if page.url == "/about.html" or page.url contains "/about/" %}style="font-size: larger;border-bottom: 1px dotted gray;"{% endif %}>about</a><br />
+    <a href="/excerpts.html" {% if page.url == "/excerpts.html" or page.url contains "/excerpts/"%}style="font-size: larger;border-bottom: 1px dotted gray;"{% endif %}>excerpts</a><br />
+    <a href="/art.html" {% if page.url == "/art.html" or page.url contains "/art/" %}style="font-size: larger;border-bottom: 1px dotted gray;"{% endif %}>doodles</a><br />
+    <a href="/album.html" {% if page.url == "/album.html" or page.url contains "/album/" %}style="font-size: larger;border-bottom: 1px dotted gray;"{% endif %}>pics</a><br />
+    <a href="/articles.html" {% if page.url == "/articles.html" or page.url contains "/articles/" %}style="font-size: larger;border-bottom: 1px dotted gray;"{% endif %}>ramblings</a><br />
+</nav>

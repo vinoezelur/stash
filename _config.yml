@@ -1,1 +1,31 @@
-theme: jekyll-theme-minimal
+collections:
+  albums:
+    output: true
+  art:
+    output: true
+  articles:
+    output: true
+  excerpts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "albums"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "art"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "excerpts"
+    values:
+      layout: "default"

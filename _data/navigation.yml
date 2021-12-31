@@ -1,0 +1,12 @@
+- name: .am
+  link: /
+- name: .about
+  link: /about.html
+- name: .album
+  link: /album.html
+- name: .art
+  link: /art.html
+- name: .articles
+  link: /articles.html
+- name: .excerpts
+  link: /excerpts.html

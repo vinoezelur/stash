@@ -1,0 +1,14 @@
+---
+layout: default
+title: .excerpts
+---
+
+{% for excerpt in site.excerpts %}
+    <h2><a href="{{ excerpt.url }}">{{ excerpt.source }}</a></h2>
+    {% if excerpt.ispre == true %}
+        <pre>{{ excerpt.thequote }}</pre>
+    {% else %}
+        <p>{{ excerpt.thequote }}</p>
+    {% endif %}
+    <br/>
+{% endfor %}
