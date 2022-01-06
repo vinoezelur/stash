@@ -43,5 +43,6 @@ thequote: |
 
 <br />
 <br />
+<hr>
 
 This is one of the poems penned by {{ page.source }} which will always remain close to my heart. 

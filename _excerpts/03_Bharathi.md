@@ -41,5 +41,6 @@ thequote: |
 
 <br />
 <br />
+<hr>
 
 This is another one of {{ page.source }}'s poems, which has inspired me everytime i read it. 
