@@ -1,4 +1,4 @@
-# Site based on the Minimal Theme from Ordered List
+# A Personal Blog based on the Minimal Theme from Ordered List
 
 This is the raw HTML and styles that are used for the *minimal* theme on [GitHub Pages](http://pages.github.com/).
 
