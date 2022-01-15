@@ -12,7 +12,7 @@ thequote: |
     வையத்தில் யானுள்ள மட்டிலும் - எனை <br />
     வேற்று நினைவின்றித் தேற்றியே - இங்கோர் <br />
     விண்ணவ னாகப் புரியுமே! இந்தக் (காற்று) <br />
-
+    <br />
     நீயென தின்னுயிர் கண்ணம்மா! - எந்த <br />
     நேரமும் நின்றனைப் போற்றுவேன் - துயர் <br />
     போயின, போயின துன்பங்கள் நினைப் <br />
@@ -45,4 +45,4 @@ thequote: |
 <br />
 <hr>
 
-This is another one of {{ page.source }}'s poems, which has inspired me everytime i read it. 
+This is another one of {{ page.source }}'s poems, which melts me everytime i read it. 

@@ -29,3 +29,4 @@ defaults:
       type: "excerpts"
     values:
       layout: "default"
+      title: blah blah

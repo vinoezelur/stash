@@ -1,0 +1,10 @@
+---
+layout: default
+title: .articles
+---
+<h2><a href="{{ page.url }}">ramblings</a></h2>
+{% for post in site.articles %}
+    <a href="{{ post.url }}"><img src={{ post.image }}></a>
+    <p>&mdash; <a href="{{ post.url }}">{{ post.source }}</a><small>, {{ post.description }} </small></p>
+    <br/>
+{% endfor %}
